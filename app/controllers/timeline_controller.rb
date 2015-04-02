@@ -1,7 +1,7 @@
 class TimelineController < ApplicationController
 
   def show
-    @events = Event.order('year, eventDate')
+    @events = Event.order('"year" ASC, "eventDate" ASC')
   end
 
 end
