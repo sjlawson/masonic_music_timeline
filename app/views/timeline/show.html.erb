@@ -4,16 +4,23 @@
 <section id="cd-timeline" class="cd-container">
   <% @events.each do |event| %>
   <div class="cd-timeline-block">
+      <% if event.icontype.to_s != '' %>
     <div class="cd-timeline-img cd-<%= event.icontype %>">
       <img src="assets/cd-icon-<%= event.icontype %>.svg" alt="<%= event.icontype %>">
     </div> <!-- cd-timeline-img -->
+    <% else %>
+    <div class="cd-timeline-img cd-picture">
 
+    </div>
+    <% end %>
     <div class="cd-timeline-content">
       <h2><%= event.title %></h2>
       <p>
         <%= event.content %>
       </p>
-      <a href="#0" class="cd-read-more">Read more</a>
+      <% if event.readmoreUrl.to_s != '' %>
+      <a href="<%= event.readmoreUrl %>" class="cd-read-more">Read more</a>
+      <% end %>
       <span class="cd-date"><%= event.eventDate ? event.eventDate.strftime("%a %d %b %Y") : event.year %></span>
     </div> <!-- cd-timeline-content -->
   </div> <!-- cd-timeline-block -->
