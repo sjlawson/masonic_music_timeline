@@ -5,24 +5,19 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version = 2.2
 
 * System dependencies
+  * rails v4.2.1
 
 * Configuration
+  * edit config/database.yml and assign preferred database connection for environments
 
-* Database creation
+* Database creation, init: standard rails using postgres or sqlite3
 
-* Database initialization
+* Test with: rake test
 
-* How to run the test suite
+* Deployment: best with heroku and git
 
-* Services (job queues, cache servers, search engines, etc.)
+* refer to doc for generated class documentation
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
