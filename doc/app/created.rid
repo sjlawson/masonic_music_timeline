@@ -1,0 +1,10 @@
+Mon, 13 Apr 2015 11:14:36 -0400
+README.rdoc	Wed, 01 Apr 2015 13:55:21 -0400
+app/controllers/application_controller.rb	Thu, 02 Apr 2015 13:13:04 -0400
+app/controllers/events_controller.rb	Wed, 01 Apr 2015 16:56:50 -0400
+app/controllers/timeline_controller.rb	Thu, 02 Apr 2015 11:31:02 -0400
+app/helpers/application_helper.rb	Wed, 01 Apr 2015 16:29:55 -0400
+app/helpers/events_helper.rb	Wed, 01 Apr 2015 16:29:55 -0400
+app/helpers/timeline_helper.rb	Wed, 01 Apr 2015 16:29:55 -0400
+app/models/event.rb	Wed, 01 Apr 2015 16:29:55 -0400
+app/models/user.rb	Wed, 01 Apr 2015 16:29:55 -0400
